@@ -26,3 +26,12 @@ public sealed class Example : MonoBehaviour
     }
 }
 ```
+
+## 補足
+
+* `Application.internetReachability` は接続の設定を返すだけなので  
+  実際にインターネットに接続しているかどうかは確認できない
+* 公式ドキュメントにもそのような目的では使用しないように記載されている
+    * https://docs.unity3d.com/ScriptReference/Application-internetReachability.html
+* 上記の使用例ではではパブリック DNS に Ping を飛ばすことで  
+  インターネットに接続しているかを確認している  
