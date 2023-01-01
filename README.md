@@ -34,4 +34,9 @@ public sealed class Example : MonoBehaviour
 * 公式ドキュメントにもそのような目的では使用しないように記載されている
     * https://docs.unity3d.com/ScriptReference/Application-internetReachability.html
 * 上記の使用例ではではパブリック DNS に Ping を飛ばすことで  
-  インターネットに接続しているかを確認している  
+  インターネットに接続しているかを確認している
+
+## 依存しているパッケージ
+
+* https://github.com/baba-s/Kogane.PingUtils
+* https://github.com/Cysharp/UniTask
